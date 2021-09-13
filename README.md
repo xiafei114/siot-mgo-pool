@@ -11,7 +11,7 @@ user.go
 package main
 
 import (
-  "github.com/souliot/siot-mgo-pool/orm"
+  "siot-mgo-pool/orm"
 )
 
 type User struct {
@@ -31,7 +31,7 @@ package main
 
 import (
   "fmt"
-  "github.com/souliot/siot-mgo-pool/orm"
+  "siot-mgo-pool/orm"
 )
 
 func init() {
@@ -72,7 +72,7 @@ package main
 
 import (
   "fmt"
-  "github.com/souliot/siot-mgo-pool/orm"
+  "siot-mgo-pool/orm"
 )
 
 func main() {

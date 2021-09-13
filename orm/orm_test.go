@@ -31,14 +31,13 @@ func init() {
 	RegisterModel(new(Logs2))
 
 	RegisterDriver("mongo", DRMongo, true)
-	RegisterDataBase("default", "mongo", "mongodb://yapi:abcd1234@192.168.50.200:27017/yapi", true)
-	// RegisterDataBase("default", "mongo", "mongodb://yapi:abcd1234@vm:27017/yapi")
+	RegisterDataBase("default", "mongo", "mongodb://hpyg:fire@localhost:27017/FireRobotOnline", true)
 
 }
 
 var (
 	l = Logs{
-		UserName: "linleizhou1234",
+		UserName: "hpyg",
 		Ltype:    "group",
 	}
 )

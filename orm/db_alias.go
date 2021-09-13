@@ -19,7 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/souliot/siot-mgo-pool/pool"
+	"github.com/xiafei114/siot-mgo-pool/pool"
+
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
 )
